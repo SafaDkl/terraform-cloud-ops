@@ -6,3 +6,6 @@ modules/ec2/.terraform/*
 modules/elb/.terraform/*
 modules/vpc/.terraform/*
 modules/vpc/.terraform/*
+
+#all terraform files
+./terraform
