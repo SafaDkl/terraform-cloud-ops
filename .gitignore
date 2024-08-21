@@ -5,7 +5,14 @@ modules/ec2/.terraform/*
 modules/ec2/.terraform/*
 modules/elb/.terraform/*
 modules/vpc/.terraform/*
-modules/vpc/.terraform/*
 
 #all terraform files
-./terraform
+/terraform/*
+.terraform-install
+/darwin_arm64
+*.hcl
+
+#vscode
+/.vscode
+modules/dynamo/.terraform/providers/registry.terraform.io/hashicorp/aws/5.63.0/darwin_arm64/terraform-provider-aws_v5.63.0_x5
+modules/dynamo/.terraform/providers/registry.terraform.io/hashicorp/aws/5.63.0/darwin_arm64/LICENSE.txt
